@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Oswald:wght@200..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+body {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color:black;
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #101010;
+    box-sizing: content-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    flex:3;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.logo-container {
+    flex: 1;
+    margin-left: 2%;
+}
+
+.logo-container h1 {
+    color:yellow;
+}
+
+.navigation{
+    display: flex;
+    flex: 3;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+}
+ 
+.navigation li, a{
+    background-color: #101010; 
+    list-style: none;
+}
+.navigation a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch
+}
+
+.sidebar {
+    flex: 1;
+    width: 100%;
+    max-width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    flex: 1;
+}
+
+.content img {
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    color: yellow;
+}
+
